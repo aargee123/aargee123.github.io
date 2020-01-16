@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(header.jpg);
+  background-size: cover;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
+.con1{
+	padding-top: 325px;
+}
+hr{
+	margin-top: 170px;
+	border-color:rgba(255, 0, 0, 0.8);
+	max-width: 45px;
+}
+.con{
+	display: flex;
+	justify-content: center;
+}
+.btn-primary{
+	background-color: rgba(255, 0, 0, 0.8);
+	color: white;
+	border-color: rgba(255, 0, 0, 0.8);
+	border-radius: 30px;
+	background-size: 50px;
+	padding: 10px 20px 10px 20px;
+}
+.btn-primary:hover{
+	background-color: black;
+	color: white;
+	border-width: 4px;
+}
